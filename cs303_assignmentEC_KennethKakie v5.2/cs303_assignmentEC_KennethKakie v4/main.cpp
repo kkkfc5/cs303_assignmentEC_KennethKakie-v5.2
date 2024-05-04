@@ -17,23 +17,23 @@ using namespace std::chrono; // nanoseconds, system_clock, seconds
 
 int main() {
 
-	Building test5;
-	test5.addElevator();
+	Building b5;
+	b5.addElevator();
 
 
-	test5.generate(); // ititialize 3 external button presses
-	test5.generate();
-	test5.generate();
+	b5.generate(); // ititialize 3 external button presses
+	b5.generate();
+	b5.generate();
 
 
-	for (int i = 0; i < 15; i++) { test5.tick(); } // tick 15 times.
+	for (int i = 0; i < 15; i++) { b5.tick(); } // tick 15 times.
 
-	test5.addElevator(); // add two elevators to the system
-	test5.addElevator();
+	b5.addElevator(); // add two elevators to the system
+	b5.addElevator();
 
-	test5.generate(); // initialize 3 more external button presses
-	test5.generate();
-	test5.generate();
+	b5.generate(); // initialize 3 more external button presses
+	b5.generate();
+	b5.generate();
 
 
 	cout << "\nV================================================================================V";
@@ -47,7 +47,7 @@ int main() {
 
 
 	for (int i = 0; i < 15; i++) { // in real time, tick
-		test5.tick();
+		b5.tick();
 		sleep_for(seconds(5));
 	}
 
@@ -65,4 +65,4 @@ int main() {
 // TO DO:
 // ASK USER IF THEY WANT TO MANUALLY DO DETAILS OR AUTOMATICALLY RUN IT
 
-// MY CODE THAT I HAVE NOW AUTOMATICALLY RUNS IT, BUT WE CAN MAKE A NEUTERED VERS FOR USERS
+// MY CODE THAT I HAVE NOW AUTOMATICALLY RUNS IT, BUT I CAN MAKE A NEUTERED VERS FOR USERS
