@@ -1,0 +1,7 @@
+﻿  Building.cpp
+  callQueue.cpp
+  Elevator.cpp
+  main.cpp
+  Generating Code...
+C:\Users\kkaki\source\repos\cs303_assignmentEC_KennethKakie v5.2\cs303_assignmentEC_KennethKakie v4\callQueue.cpp(142): warning C4715: 'callQueue::determineDistance': not all control paths return a value
+  cs303_assignmentEC_KennethKakie v4.vcxproj -> C:\Users\kkaki\source\repos\cs303_assignmentEC_KennethKakie v5.2\x64\Debug\cs303_assignmentEC_KennethKakie v4.exe
